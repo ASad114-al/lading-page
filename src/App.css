@@ -1,38 +1,152 @@
-.App {
+
+#titel
+{
   text-align: center;
+  padding-top: 3%;
+  font-weight: bold;
 }
+h2{
+  text-align: center;
+  color: aliceblue;
+  font-size: 3rem;
+ 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#h2border{
+  border-bottom: 2px solid whitesmoke;
+  width: 30%;
+  margin-bottom: 2%;
+  margin-left: 35%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#titel-text{
+ padding-left: 32%;
+ text-align: center;
+  width: 700px;
+}
+.number-header
+{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  margin-top: 3%;
+  color: aliceblue;
+  width: 100%;
+
+
+ 
+}
+header{
+  background: green;
+  height: 50vh;
+}
+#p{
+  color: black;
+ margin-top: -20%;
+ margin-left : -65%;
+  
+}
+#number1-div{
+ 
+
+
+  border-right: 1px solid white;
+   height: 17vh;
+   padding-right: 5%;
+   margin-top: 2%;
+   margin-bottom: 1%;
+  
+}
+
+h1{
   color: white;
+  font-size: 50px;
+  margin-left : -65%;
+
+  
+}
+ 
+ #number{
+  margin-top: 2%;
+   margin-bottom: 1%;
 }
 
-.App-link {
-  color: #61dafb;
+.Wedo{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+  .we{
+    font-size: 45px;
+    width: 68%;
+    padding-left: 16%;
+    margin-bottom: 6%;
+  
+   }
+
+  
+ 
+ 
+  .Wedo div{
+    width: 50%;
+    padding-left: 20%;
   }
-  to {
-    transform: rotate(360deg);
+
+  article{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+    
+  }
+  .card{
+    border-left: 70px solid lightgrey;
+    border-right:  70px solid lightgrey;
+  }
+
+  img{
+    height: 200px;
+   width: 100%;
+  }
+  .blue{
+   color: skyblue;
+   font-size: 20px;
+   font-weight: bold;
+  }
+
+  .preis{
+    color: rgb(57, 221, 112);
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+/* 
+  @media only screen and (max-width: 375px) {
+    .header {
+     width: 50%;
+     margin: 40%;
+    }
+    .brand {
+      width: 75%;
+    }
+    .card{
+      width: 75%;
+   
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .header {
+   width: 100%;
+   margin: 40%;
+  }
+  .brand {
+    width: 75%;
+  }
+  .card{
+    width: 75%;
+ 
+}
+} */
+
+  
